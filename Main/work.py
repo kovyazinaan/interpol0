@@ -15,6 +15,3 @@ def merge_excel_files(file_paths, output_folder_path):
         df.to_csv(output_file_path, index=False)
         length_check = len(df)
 
-file_paths = ['1.xlsx', '2.xlsx', '3.xlsx']
-output_folder_path = 'Main'
-merge_excel_files(file_paths, output_folder_path)
