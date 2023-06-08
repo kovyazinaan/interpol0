@@ -21,6 +21,6 @@ count_2 = df_third['id'].count()
 df_third.index = range(df_second['id'].iloc[-1] + 1, df_second['id'].iloc[-1] + 1 + count_2, 1)
 df_third.index.name = 'id'
 
-df_first.to_csv('new_table1.exel', index=False)
-df_second.to_csv('new_table2.exel', index=False)
-df_third.to_csv('new_table3.exel', index=False)
+df_first.to_csv('table1.csv', index=False)
+df_second.to_csv('table2.csv', index=False)
+df_third.to_csv('table3.csv', index=False)
